@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify-Web Player: Music for everyone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Spotify_icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                    <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+               <div class="option">
+                <div class="lib-option nav-option">
+                    <i class="fa-solid fa-book"></i>
+                    <a href="#">Your Library</a>
+                </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                
+               </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">its easy will hlp you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Lets find some podcasts to follow </p>
+                        <p class="box-p2">will keep you updated on new episodes</p>
+                        <button class="badge">Browse prodcasts</button>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right" id="hide"></i>
+            </div>
+            <div class="sticky-nav-option">
+                <button class="badge" id="hide">Explore Premium</button>
+                <button class="badge-dark"><i class="fa-solid fa-download"></i>Install App</button>
+                <i class="fa-regular fa-user"></i>
+</div>
+            </div>
+            
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="spotify 1st img12.jpg" alt="card" id="1" class="card-img">
+                        <p class="card-title">papa meri jaan</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                </div>
+
+
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="photo/spotify song-1.jfif" alt="card" id="2" class="card-img">
+                        <p class="card-title">Raantan Lambiya</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photo/spotify song-2.jfif" alt="card" id="3" class="card-img">
+                        <p class="card-title">Chaleya</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photo/spotify song-3.jfif" alt="card" id="4" class="card-img">
+                        <p class="card-title">Genda Phool</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>        
+                    <div class="card">
+                        <img src="photo/spotify song-4.jfif" alt="card" id="5" class="card-img">
+                        <p class="card-title">Dhindhora baje re</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photo/spotify song-5.jfif" alt="card" id="6" class="card-img">
+                        <p class="card-title">Do Gallan</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right" id="hiden"></i>
+                </div> 
+
+
+
+
+                <h2>Featured charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="photo/spotify song-6.jfif" alt="card" id="7" class="card-img">
+                        <p class="card-title">Heeriye</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photo/spotify song-7.jfif" alt="card" id="8" class="card-img">
+                        <p class="card-title">Zihaal-e-Miskin</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photo/spotify song-8.jfif" alt="card" id="9" class="card-img">
+                        <p class="card-title">Jamal Kudu-Animal</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>        
+                    <div class="card">
+                        <img src="photo/spotify song-9.jfif" alt="card" id="10" class="card-img">
+                        <p class="card-title">Ram ayenge</p>
+                        <p class="card-info">Your daily updates of the most played tags...</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right" id="hiden"></i>
+                </div>
+     <h2> New songs</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="photo/spotify song-10.jfif" alt="card" id="11" class="card-img">
+                            <p class="card-title">Dhol bajaa</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <div class="card">
+                            <img src="photo/spotify song-11.jfif" alt="card" id="12" class="card-img">
+                            <p class="card-title">Tera Naam</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <div class="card">
+                            <img src="photo/spotify song-12.jfif"card" id="13" class="card-img">
+                            <p class="card-title">Jhumka gira</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>        
+                        <div class="card">
+                            <img src="photo/spotify song-13.jfif" alt="card" id="14" class="card-img">
+                            <p class="card-title">Yaar ka sataya</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <div class="card">
+                            <img src="photo/spotify song-14.jfif" alt="card" id="15" class="card-img">
+                            <p class="card-title">MAin bhola parvat ka</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <div class="card">
+                            <img src="photo/spotify song-15.jfif" alt="card" id="16" class="card-img">
+                            <p class="card-title">Phone main teri photo</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <div class="card">
+                            <img src="photo/spotify song-6.jfif"card" id="18" class="card-img">
+                            <p class="card-title">Heeriye</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>        
+                        <div class="card">
+                            <img src="photo/spotify song-5.jfif" alt="card" id="19" class="card-img">
+                            <p class="card-title">Do Gallan</p>
+                            <p class="card-info">Your daily updates of the most played tags...</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" id="hiden"></i>
+                     
+
+                </div> 
+<div class="footer">
+    <div class="line"></div>
+</div>
+
+
+        </div>
+        <div class="music-player">
+            <div class="left-control">
+                <img src="photo/spotify song-4.jfif" class="img">
+                <p class="p1">Daylight</p>
+              
+                 
+                <i class="fa-regular fa-heart" id="left"></i>
+                <i class="fa-regular fa-hard-drive" id="left"></i> 
+            </div>
+
+
+            <div class="player">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle" id="player-control-icon-1"></i>
+                    <i class="fa-solid fa-backward-step" id="player-control-icon-2"></i>
+                    <i class="fa-solid fa-circle-play" id="player-control-icon-3" style="opacity: 1; font-size:1.5rem;"></i> 
+                    <i class="fa-solid fa-forward-step" id="player-control-icon-4"></i>
+                    <i class="fa-regular fa-square" id="player-control-icon-5"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" id="range" min="0" max="100" value="0" class="progress-bar">
+                    <span class="total-time">03:30</span>
+
+                </div>
+            </div>
+           
+
+                <div class="right-control">
+                    <i class="fa-solid fa-square-caret-right" style="color: #00040a;"></i> 
+<i class="fa-duotone fa-spoon"></i>
+<i class="fa-duotone fa-bars"></i>
+<i class="fa-solid fa-file-zipper"></i>
+<i class="fa-solid fa-volume-high"></i> 
+<input type="range" min="0" max="100" class="progress-bar-1" id="range">
+
+                </div>
+            </div>
+
+        </div>
+  
+   <script src="scrip.js"></script>
+</body>
+</html>
+
+
+<!--<i class="fa-solid fa-circle-play"></i> middle
+<i class="fa-solid fa-backward-step"></i>backword
+<i class="fa-solid fa-forward-step"></i>forward
+<i class="fa-solid fa-shuffle"></i>1st
+<i class="fa-regular fa-square"></i>last
+
+<i class="fa-regular fa-heart"></i> heart 
+<i class="fa-regular fa-hard-drive"></i> save 
+
+<i class="fa-solid fa-square-caret-right" style="color: #00040a;"></i> play
+<i class="fa-duotone fa-spoon"></i>mike
+<i class="fa-duotone fa-bars"></i>bar
+<i class="fa-solid fa-file-zipper"></i>file
+<i class="fa-solid fa-volume-high"></i> speaker
+-->
